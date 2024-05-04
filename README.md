@@ -1,51 +1,51 @@
-Минимальный набор готовых CSS-классов для повседневных задач по верстке.
+A minimal set of out-of-the-box CSS classes for everyday layout tasks.
 
-## Установка
+## Installation
 
 NPM:
-`npm install macro-css`
+`npm install macro-css`.
 
 Yarn:
-`yarn add macro-css`
+`yarn add macro-css`.
 
-## Использование
+## Usage
 
-Установить набор классов с помощью NPM или Yarn
+Install a set of classes using NPM or Yarn
 
 ### React
 
-Подключить в любом месте index.js: `import 'macro-css';`
+Plug in anywhere in index.js: `import 'macro-css';`
 
 ### SASS/SCSS
 
-Открыть самый главный файл со стилями и дописать в самом начале: `@import 'macro-css';`
+Open the main styles file and write `@import 'macro-css';` at the very beginning.
 
-Внизу в таблице приведены примеры классов, которые можно использовать. Вместо символа "\*" укажите одну букву любой стороны. Если не указывать сторону, то отступы будут задаваться со всех сторон.
+At the bottom of the table are examples of classes that can be used. Instead of the “\*” symbol, specify one letter of either side. If you don't specify a side, indents will be specified on all sides.
 
-Сторона => сокращение:
+Side => abbreviation:
 
-- `left` => `l`
+- `left` => `l`.
 - `right` => `r`
 - `top` => `t`
 - `bottom` => `b`
 
-### Например:
+### For example:
 
-| Класс               | Значение                                                      |
+| Class | Value |
 | ------------------- | ------------------------------------------------------------- |
-| `mr-10 mb-50`       | `margin-right: 10px; margin-bottom: 50px;`                    |
-| `m-25`              | `margin: 25px;`                                               |
-| `p-50`              | `padding: 50px;`                                              |
-| `pr-10 mt-15 mb-15` | `padding-right: 10px; margin-top: 15px; margin-bottom: 15px;` |
+| ``mr-10 mb-50`` | `margin-right: 10px; margin-bottom: 50px;`` |
+| `m-25` | `margin: 25px;| |
+| `p-50` | `padding: 50px;` |
+| `pr-10 mt-15 mb-15` | `padding-right: 10px; margin-top: 15px; margin-bottom: 15px;` | |
 
-Значение:
+Value:
 
-- `mt-10` - `margin-top: 10px`
+- `mt-10` - `margin-top: 10px`.
 - `mr-40` - `margin-right: 40px`
 
-# Отступы margin
+# Margin
 
-| Класс  | Значение         |
+| Class  | Value            |
 | ------ | ---------------- |
 | m\*-5  | margin-\*: 5px;  |
 | m\*-10 | margin-\*: 10px; |
@@ -58,9 +58,9 @@ Yarn:
 | m\*-45 | margin-\*: 45px; |
 | m\*-50 | margin-\*: 50px; |
 
-# Отступы padding
+# Padding
 
-| Класс  | Значение          |
+| Class  | Value             |
 | ------ | ----------------- |
 | p\*-5  | padding-\*: 5px;  |
 | p\*-10 | padding-\*: 10px; |
@@ -73,15 +73,15 @@ Yarn:
 | p\*-45 | padding-\*: 45px; |
 | p\*-50 | padding-\*: 50px; |
 
-# Очистка базовых стилей
+# Clearing base styles
 
-| Класс | Значение                                                                                                                                                       |
+| Class | Value                                                                                                                                                          |
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| clear | Очищает базовые стили, которые устанавливает браузер для: `<a>, <ul>, <li>`. Также для всех (`*`) остальных элементов: `box-sizing: border-box; outline: none` |
+| clear | Clears the base styles that the browser sets for: `<a>, <ul>, <li>`. Also for all (`*`) other elements: `box-sizing: border-box; outline: none` |
 
 # Flex, позиционирование, размер
 
-| Класс           | Значение                        |
+| Class           | Value                           |
 | --------------- | ------------------------------- |
 | h100p           | height: 100%;                   |
 | w100p           | width: 100%;                    |
@@ -107,9 +107,9 @@ Yarn:
 | pos-r           | position: relative;             |
 | pos-a           | position: absolute;             |
 
-# Текст
+# Text
 
-| Класс           | Значение                                                        |
+| Class           | Value                                                           |
 | --------------- | --------------------------------------------------------------- |
 | text-center     | text-align: center;                                             |
 | text-capitalize | text-transform: capitalize;                                     |
@@ -120,7 +120,7 @@ Yarn:
 
 # Opacity
 
-| Класс      | Значение      |
+| Class      | Value         |
 | ---------- | ------------- |
 | opacity-1  | opacity: 0.1; |
 | opacity-2  | opacity: 0.2; |
